@@ -3,12 +3,9 @@
 //
 #include <stdio.h>
 int main() {
-    int a;
-    printf("ENTER A NUMBER: ");
-    scanf("%d",&a);
     int i;
-    for(i = 1; i <= 10; i++) {
-        printf("%d * %d = %d\n",a,i,a*i);
+    for(i = 11 ; i <= 99 ; i++) {
+        printf("%d\n",i);
     }
     return 0;
 }
