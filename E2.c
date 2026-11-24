@@ -14,6 +14,7 @@ void insert(int arr[], int n, int pos, int element) {
     printf("Array after insertion: ");
 
     for (int i = 0; i <= n; i++) {
+
         printf("%d ", arr[i]);
     }
 }
